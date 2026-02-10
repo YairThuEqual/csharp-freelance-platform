@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Compile Update="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\ChooseUserType.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\Clients.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\ClientView\ClientProfile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\ClientView\ClientProjectView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\ClientView\ViewCompletedProjects.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\ClientView\VIewFreelancerProfiles.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\Dashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\Freelancer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\FreelancerView\FreelancerBrowse.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\FreelancerView\FreelancerProfile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\ReviewForCompletePost.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\SignUp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\SignupAndLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\testing.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="UserControls\ClientDashboard.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="UserControls\ClientProfileEdit.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="UserControls\ClientProjects.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="UserControls\FreelancerCompletePj.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="UserControls\FreelancerDashboard.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="UserControls\FreelancerDashboardPosts.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="UserControls\FreelancerSelectProject.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="UserControls\ShowFreelancerProfile.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>

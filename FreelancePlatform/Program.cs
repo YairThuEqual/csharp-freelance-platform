@@ -1,0 +1,20 @@
+using FreelancePlatform.Forms;
+
+namespace FreelancePlatform
+{
+    internal static class Program
+    {
+        /// <summary>
+        ///  The main entry point for the application.
+        /// </summary>
+        [STAThread]
+        static void Main()
+        {
+            // To customize application configuration such as set high DPI settings or default font,
+            // see https://aka.ms/applicationconfiguration.
+            ApplicationConfiguration.Initialize();
+            //Application.Run(new Forms.ClientView.ClientProjectView());
+            Application.Run(new Forms.ChooseUserType());
+        }
+    }
+}
